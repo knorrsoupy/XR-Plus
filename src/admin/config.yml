@@ -6,7 +6,7 @@ backend:
 media_folder: "public/assets/blog" # Media files will be stored in the repo under images/uploads
 public_folder: "/assets/blog"
 
-ollections:
+collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "src/blog" # The path to the folder where the documents are stored
