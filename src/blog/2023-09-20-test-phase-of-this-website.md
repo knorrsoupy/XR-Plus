@@ -1,7 +1,7 @@
 ---
 title: test phase of this website
 description: hello darkness my old friend
-author: soup
+author: souparnA
 date: '2023-09-20T20:37:19+05:30'
 tags:
   - post
