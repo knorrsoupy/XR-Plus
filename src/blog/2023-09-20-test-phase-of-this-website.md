@@ -7,7 +7,7 @@ tags:
   - post
   - xr design
   - ux design
-thumbnail: /assets/blog/img-0855.png
+thumbnail: /assets/blog/whatsapp-image-2023-08-03-at-7.02-1.png
 imageAlt: shitty room
 ---
 **wefl;fkwe;kerqpekq[pe[qwpe**
