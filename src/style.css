@@ -5,8 +5,8 @@
   --fs-600: 1.875rem;
   --fs-700: 2rem;
 
-  --ff-body: "Roboto", sans-serif;
-  --ff-heading: "Playfair Display", serif;
+  --ff-body: "Poppins";
+  --ff-heading: "Poppins";
 
   --fw-400: 400;
   --fw-700: 700;
@@ -89,6 +89,7 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  border-radius: 0.5rem;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -185,6 +186,8 @@ section,
 
 .article-title {
   font-size: var(--fs-700);
+  display: flex;
+  justify-content: center;
 }
 
 .section-title {
@@ -213,12 +216,15 @@ section,
 .nav-list a {
   color: var(--clr-neutral-900);
   text-decoration: none;
+
+  font-weight: bold;
 }
 
 .nav-list a:focus,
 .nav-list a:hover {
   color: var(--clr-primary-400);
-  text-decoration: underline;
+  text-decoration: none;
+  transition-duration: 0.4s;
 }
 
 /* //////////////////////
@@ -371,6 +377,7 @@ section,
 .btn--primary:focus {
   background: var(--clr-primary-500);
   border-color: var(--clr-primary-500); 
+  transition-duration: 0.4s;
 }
 
 .btn--neutral {
@@ -384,4 +391,5 @@ section,
 .btn--neutral:focus {
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
+  transition-duration: 0.4s;
 }
